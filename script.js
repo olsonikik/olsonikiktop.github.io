@@ -1,0 +1,60 @@
+#app-title h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #007bff;
+}
+
+body {
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif; /* Add this line */
+}
+
+#login-container, #app-container {
+    text-align: center;
+}
+
+#app-container button {
+    display: block; /* Make each button a block element */
+    width: 200px; /* Set a fixed width for buttons */
+    margin: 10px auto; /* Center buttons and add spacing */
+}
+
+h1 {
+    font-size: 3em;
+    color: #007bff;
+}
+
+#email-error {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: red;
+}
+
+input[type="text"], input[type="password"], input[type="range"] {
+    display: block; /* Center the input elements */
+    margin: 10px auto; /* Add auto margins to center */
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.tab {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#change-decibel-container, #revert-schedule {
+    margin-bottom: 20px;
+}
